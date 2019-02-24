@@ -349,16 +349,29 @@
   </aside>
 </div>
 
-<script src="/__/firebase/5.7.0/firebase-app.js"></script>
-<script src="/__/firebase/5.7.0/firebase-auth.js"></script>
-<script src="/__/firebase/5.7.0/firebase-firestore.js"></script>
-<script src="/__/firebase/init.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCAg1MkwjduN3eWw07ncuS9dAgQsX0jOdU",
+    authDomain: "firestore-ef0bd.firebaseapp.com",
+    databaseURL: "https://firestore-ef0bd.firebaseio.com",
+    projectId: "firestore-ef0bd",
+    storageBucket: "firestore-ef0bd.appspot.com",
+    messagingSenderId: "454198637112"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <script src="//unpkg.com/navigo@6"></script>
-
-<script src="/scripts/FriendlyEats.js"></script>
+<script src="initialize.js"></script>
+<!-- <script src="/scripts/FriendlyEats.js"></script>
 <script src="/scripts/FriendlyEats.View.js"></script>
 <script src="/scripts/FriendlyEats.Mock.js"></script>
-<script src="/scripts/FriendlyEats.Data.js"></script>
+<script src="/scripts/FriendlyEats.Data.js"></script> -->
 </body>
 </html>
